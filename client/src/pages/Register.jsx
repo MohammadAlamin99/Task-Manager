@@ -58,7 +58,7 @@ const Register = () => {
           className="bg-body p-5 rounded shadow mx-auto "
           style={{ maxWidth: "35rem" }}
         >
-          <h3 className="text-muted pb-3">Sign Up</h3>
+          <h3 className="text-muted pb-3 Loginpage">Sign Up</h3>
           <form className="row g-3">
             <div className="col-12">
               <input
@@ -105,17 +105,18 @@ const Register = () => {
               <button
                 type="button" 
                 className="btn text-white"
-                style={{ background: "#D980FA" }}
+             
                 onClick={onRegistration}
+                style={{fontFamily:"'Poppins', sans-serif;", fontWeight:"400", background:"#419CA6", color:"#fff"}} 
               >
                 Sign Up
               </button>
             </div>
           </form>
-          <p className="mt-3">
+          <p className="mt-3 profileInside">
             Already have an account?
             <span className="text-orange-500">
-              <Link to="/login" style={{ color: "#D980FA" }}>
+              <Link to="/login" style={{ color: "#419CA6" }}>
                 {" "}
                 Login
               </Link>
