@@ -13,6 +13,7 @@ const Progress = () => {
     (async()=>{
       setLoaded(true)
       let result =await ListByStatusRequiest("Progress");
+      console.log(result)
       setLoaded(false)
       setData(result)
     })()
